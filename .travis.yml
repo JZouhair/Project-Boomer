@@ -4,11 +4,7 @@ cache:
 language: java
 jdk:
  - oraclejdk8
- addons:
-  sonarcloud:
-    organization: JZouhair
-    token:
-      secure: f5e51767ade167fb3e4d2233ad026f7f2c9b2a30
+ 
 
 install:
  - mvn -N io.takari:maven:wrapper
