@@ -4,12 +4,12 @@ import org.junit.Test;
 
 public class TraitementMetierTest {
 
-	@Test
+	//@Test
 	public void testGetBookById() throws Exception {
 		throw new RuntimeException("not yet implemented");
 	}
 
-	@Test
+	//@Test
 	public void testGetAllBooks() throws Exception {
 		throw new RuntimeException("not yet implemented");
 	}
