@@ -11,6 +11,23 @@
 	<name>ProjetTest</name>
 	<description>Demo project for Spring Boot</description>
 
+<developers>
+		<developer>
+			<id>sk</id>
+			<email>jawadi.zouhair.2017@gmail.com</email>
+			<name>Zouhair jawadi</name>
+		</developer>
+	</developers>
+	<scm>
+		<url>https://github.com/JZouhair/Project-Boomer</url>
+		<connection>scm:git:git:github.com/JZouhair/Project-Boomer.git</connection>
+		<developerConnection>scm:git:git@github.com:JZouhair/Project-Boomer.git</developerConnection>
+	</scm>
+<issueManagement>
+		<url>https://github.com/JZouhair/Project-Boomer/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -21,7 +38,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
+		<java.version>1.8</java.version>	
+		<jacoco-maven-plugin.version>0.7.4.201502262128</jacoco-maven-plugin.version>
+		<jacoco.it.execution.data.file>${project.build.directory}/jacoco-it.exec</jacoco.it.execution.data.file>
+		<jacoco.ut.execution.data.file>${project.build.directory}/jacoco.exec</jacoco.ut.execution.data.file>
+	
 	</properties>
 
 	<dependencies>
