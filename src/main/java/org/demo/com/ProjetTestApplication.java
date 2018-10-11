@@ -28,7 +28,7 @@ public class ProjetTestApplication {
 			ip.save(new PromotionB(i+"/09/2018", i+"/10/2018", "promotion de l'été", 50+(i*3), false));
 			
 			}
-		ip.save(new PromotionB("12/09/2018", "12/10/2018", "promotion de l'été", 60, true));/*	*/
+		ip.save(new PromotionB("12/09/2018", "12/10/2018", "promotion de l'été", 60, true));
 		
 	}
 }
